@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>CRUD - Mentoria</title>
 
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    
-    <!--escreva seu html aqui-->
 
-    <h1>Olá mundo!</h1>
+<body>
+    <main>
+        <h2>My Heroes</h2>
+        <div class="addHero">
+            <h3>Hero Name:</h3>
+            <input type="text" name="heroname" value="">
+            <button type="submit">Add</button>
+        </div>
+        <ul class="heroList">
+            <li><span class="numero">01</span><span class="heroName">Zero</span> <button class="delHero">x</button></li>
+            <li><span class="numero">11</span><span class="heroName">Mr. Nice</span> <button class="delHero">x</button></li>
+            <li><span class="numero">12</span><span class="heroName">Narco</span> <button class="delHero">x</button></li>
+            <li><span class="numero">13</span><span class="heroName">Bombasto</span> <button class="delHero">x</button></li>
+            <li><span class="numero">14</span><span class="heroName">Celeritas</span> <button class="delHero">x</button></li>
+        </ul>
+    </main>
     <script src="main.js"></script>
 </body>
+
 </html>
